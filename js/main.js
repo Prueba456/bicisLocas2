@@ -19,8 +19,8 @@ var combo= document.getElementsByClassName("form-control")[0].selectedIndex;
     var lista = document.getElementsByClassName("spanNombre");
     span.innerHTML = "Debe ingresar su nombre";
     divNombre.appendChild(span);
-  /
 
+}
   if(/[0-9]/.test(nombre.value)){
     var divNombre= document.getElementsByClassName("name-container")[0];
     var span = document.createElement("span");
